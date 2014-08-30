@@ -4,7 +4,7 @@ import urllib2
 import webbrowser
 from pprint import pprint
 
-token = 'CAACEdEose0cBAPLG4DEapGSE8ZAxSALnNanAXtRTpZBM390EhRZAV3ZBnh7bZBLERNRLRXXclW53LubKLGWZB7j2CZBgh9F5ZAuBDiAWY5xFrAiKb8Sha7HrwXVKM9zbD7vkJOmHeIbbOZAuvtIaIQupU6DhntFPZC1bVTU6VvXUlBsdmHGEQfYbKX0yV1ejLL194Ae9m7ernx6TArdQBR0o5zee7quRTBvTYZD'
+token = ''
 api_url = 'https://graph.facebook.com/v2.1/'
 params = {'access_token' : token}
 
