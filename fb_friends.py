@@ -8,6 +8,7 @@ token = ''
 api_url = 'https://graph.facebook.com/v2.1/'
 params = {'access_token' : token}
 
+
 def extractFriends():
     call = "me/friends?fields=picture.width(9999).height(9999).type(large),gender,name"
     response = requests.get(api_url + call, params=params)
